@@ -1,9 +1,6 @@
 
 # Deep Learning Enable Precision Authentication of Seasonal and Processing Signatures in Tieguanyin Tea
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-*(Note: Update the license badge based on your target journal's requirements)*
-
 This repository contains the dataset and source code for the paper: **"Deep Learning Enable Precision Authentication of Seasonal and Processing Signatures in Tieguanyin Tea."** It provides a complete framework for transforming liquid chromatography–mass spectrometry (LC–MS) metabolomic data into image representations, enabling robust and highly accurate authentication of tea products even under severe chromatographic drift.
 
 ## 📖 Abstract
@@ -29,7 +26,7 @@ Profiling 274 Tieguanyin tea samples across seasonal harvests (spring and autumn
 
 
 ## 📊 Dataset Description (`image.zip`)
-The `image.zip` archive contains all LC-MS metabolomic data transformed into 2D image representations. The dataset is organized by image resolution and simulated analytical drift conditions to test model robustness.
+The `image-part1.zip` and `image-part2.zip` archives contains all LC-MS metabolomic data transformed into 2D image representations. The dataset is organized by image resolution and simulated analytical drift conditions to test model robustness.
 
 ### Naming Convention
 Folders are named using the format: `image_[resolution]_[condition]`
